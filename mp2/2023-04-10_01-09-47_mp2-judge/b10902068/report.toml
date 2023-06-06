@@ -1,0 +1,36 @@
+status = "finished"
+penalty = 0.0
+total_score = 70.0
+
+[mp2_1]
+verdict = "pass"
+has_trailing_spaces = false
+score = 5
+
+[mp2_2]
+verdict = """
+Program part I passed (6pts)
+sbrk(PGSIZE * 2) and page fault test passed (7pts)
+sbrk(-PGSIZE * 2) test passed (7pts)"""
+has_trailing_spaces = false
+score = 20
+
+[mp2_3]
+verdict = """
+madvise(MADV_NORMAL) test passed (5pts)
+page fault test passed (4pts)
+madvise(MADV_DONTNEED) test passed (8pts)"""
+has_trailing_spaces = false
+score = 17
+
+[mp2_4]
+verdict = """
+page fault test passed
+madvise(MADV_DONTNEED) test passed (13pts)
+madvise(MADV_WILLNEED) test passed (15pts)"""
+has_trailing_spaces = false
+score = 28
+
+[violations]
+has_invalid_zip_file_name = false
+has_trailing_spaces = false

@@ -1,0 +1,3 @@
+page fault test passed
+madvise(MADV_DONTNEED) test passed (13pts)
+madvise(MADV_WILLNEED) test passed (15pts)
